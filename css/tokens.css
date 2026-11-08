@@ -1,0 +1,31 @@
+/* Tokens: cores de quadra (gelo, garrafão, bola) e tipografia de placar. */
+:root {
+  --bg: #e9eff2;          /* gelo */
+  --surface: #ffffff;
+  --ink: #11222f;         /* tinta de quadra */
+  --mut: #4d606c;
+  --line: #d2dce2;
+  --key: #1d5c78;         /* garrafão */
+  --key-soft: #d6e8ef;
+  --ball: #d9480f;        /* bola */
+  --on-ball: #ffffff;
+  --board: #0f3347;       /* placar */
+  --board-ink: #eaf4f8;
+  --board-mut: #9fc0cf;
+  --ok: #1f7a4a;
+  --warn: #8a4b00;
+  --warn-soft: #fbe9d0;
+  --danger: #b42318;
+  --font-display: "Barlow Condensed", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --r-card: 14px;
+  --r-ctl: 10px;
+  --tap: 46px;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b141c; --surface: #12212c; --ink: #e6eef3; --mut: #9bb0bd; --line: #223644;
+    --key: #78bfdc; --key-soft: #163447; --ball: #ff7a3d; --on-ball: #0b141c;
+    --board: #0a2a3b; --ok: #6fd39a; --warn: #f1b36b; --warn-soft: #3a2a14; --danger: #ff8b7d;
+  }
+}
